@@ -1,0 +1,230 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Form Registration</title>
+<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700|Archivo+Narrow:400,700" rel="stylesheet" type="text/css">
+<link href="styles/style.css" rel="stylesheet" type="text/css" media="all" />
+
+</head>
+<body>
+<div id="logo" class="container">
+	<h1><a href="#">FORM EXERCISE</a></h1>
+</div>
+
+<div id="page" class="container">
+	<div id="box1">
+		<h2 class="title"><a href="#">Member Registration Form</a></h2>
+		<div style="clear: both;">&nbsp;</div>
+		<div class="entry">
+			<p><strong>Fill out the registration form on the side with the correct data. All the fields that exist in this form must be filled</strong></p>
+			
+		</div>
+	</div>
+    
+	<div id="box2">
+   <!-- BUILD FORM PENDAFTARAN START FROM HERE, INCLUDE FULLNAME,USERNAME,PASSWORD,GENDER,BIRTDATE,HOBY,ADDRESS AND SUBMIT BUTTON -->
+   		<form name="form_register" id="form_register" action="" method="post">
+   			<table id="table_form" cellspacing="8">
+   				<tr>
+   					<td class="field_form" width="30%">Fullname</td>
+   					<td class="field_form" width="5%">:</td>
+   					<td width="65%"><input type="text" name="fullname" id="fullname" required autocomplete="autocomplete" placeholder="Please insert Fullname"></td>
+   				</tr>
+   				<tr>
+   					<td class="field_form">Username*</td>
+   					<td class="field_form">:</td>
+   					<td><input type="text" name="username" id="username" required autocomplete="autocomplete" placeholder="Please insert Username"></td>
+   				</tr>
+   				<tr>
+   					<td class="field_form">Password*</td>
+   					<td class="field_form">:</td>
+   					<td><input type="PASSWORD" name="password" id="password" required placeholder="Password"></td>
+   				</tr>
+   				<tr>
+   					<td class="field_form">Email</td>
+   					<td class="field_form">:</td>
+   					<td><input type="Email" name="email" id="email" required placeholder="Please insert Email Address"></td>
+   				</tr>
+   				<tr>
+   					<td class="field_form">Gender</td>
+   					<td class="field_form">:</td>
+   					<td>
+   						<input type="radio" name="gender" value="male" checked> Male &nbsp;&nbsp;
+   						<input type="radio" name="gender" value="female"> Female 
+   					</td>
+   				</tr>
+   				<tr>
+   					<td class="field_form">Birth Date</td>
+   					<td class="field_form">:</td>
+   					<td>
+   						<select name="tanggal_lahir" class="tanggal_lahir" value="--Day--">
+   							<option>--Day--</option>
+   							<option>1</option>
+   							<option>2</option>
+   							<option>3</option>
+   							<option>4</option>
+   							<option>5</option>
+   							<option>6</option>
+   							<option>7</option>
+   							<option>8</option>
+   							<option>9</option>
+   							<option>10</option>
+   							<option>11</option>
+   							<option>12</option>
+   							<option>13</option>
+   							<option>14</option>
+   							<option>15</option>
+   							<option>16</option>
+   							<option>17</option>
+   							<option>18</option>
+   							<option>19</option>
+   							<option>20</option>
+   							<option>21</option>
+   							<option>22</option>
+   							<option>23</option>
+   							<option>24</option>
+   							<option>25</option>
+   							<option>26</option>
+   							<option>27</option>
+   							<option>28</option>
+   							<option>29</option>
+   							<option>30</option>
+   							<option>31</option>
+   						</select>
+
+   						<select name="bulan_lahir" class="tanggal_lahir" value="--Month--">
+   							<option>--Month--</option>
+   							<option>January</option>
+   							<option>February</option>
+   							<option>March</option>
+   							<option>April</option>
+   							<option>May</option>
+   							<option>June</option>
+   							<option>July</option>
+   							<option>August</option>
+   							<option>September</option>
+   							<option>October</option>
+   							<option>November</option>
+   							<option>December</option>
+   						</select>
+   						<select name="tahun_lahir" class="tanggal_lahir" value="--Year"-->
+   							<option>--Year--</option>
+   							<option>1960</option>
+							<option>1961</option>
+							<option>1962</option>
+							<option>1963</option>
+							<option>1964</option>
+							<option>1965</option>
+							<option>1966</option>
+							<option>1967</option>
+							<option>1968</option>
+							<option>1969</option>
+							<option>1970</option>
+							<option>1971</option>
+							<option>1972</option>
+							<option>1973</option>
+							<option>1974</option>
+							<option>1975</option>
+							<option>1976</option>
+							<option>1977</option>
+							<option>1978</option>
+							<option>1979</option>
+							<option>1980</option>
+							<option>1981</option>
+							<option>1982</option>
+							<option>1983</option>
+							<option>1984</option>
+							<option>1985</option>
+							<option>1986</option>
+							<option>1987</option>
+							<option>1988</option>
+							<option>1989</option>
+							<option>1990</option>
+							<option>1991</option>
+							<option>1992</option>
+							<option>1993</option>
+							<option>1994</option>
+							<option>1995</option>
+							<option>1996</option>
+							<option>1997</option>
+							<option>1998</option>
+							<option>1999</option>
+							<option>2000</option>
+							<option>2001</option>
+							<option>2002</option>
+							<option>2003</option>
+							<option>2004</option>
+							<option>2005</option>
+							<option>2006</option>
+							<option>2007</option>
+							<option>2008</option>
+							<option>2009</option>
+							<option>2010</option>
+							<option>2011</option>
+							<option>2012</option>
+							<option>2013</option>
+							<option>2014</option>
+							<option>2015</option>
+							<option>2016</option>
+							<option>2017</option>
+							<option>2018</option>
+							<option>2019</option>
+   						</select>
+   					</td>
+   				</tr><tr>
+   					<td class="field_form" valign="top">Hobby</td>
+   					<td class="field_form" valign="top">:</td>
+   					<td>
+   						<table>
+   							<tr>
+   							<td>
+		   						<input type="checkbox" name="hobby" value="Sports">Sports&nbsp;
+		   					</td>
+		   					<td>
+								<input type="checkbox" name="hobby" value="Travel">Travel&nbsp;
+							</td>
+		   					<td>
+								<input type="checkbox" name="hobby" value="Culture">Culture
+							</td>
+							</tr>
+							<tr>
+		   					<td>
+								<input type="checkbox" name="hobby" value="Culinary">Culinary&nbsp;
+							</td>
+		   					<td>
+								<input type="checkbox" name="hobby" value="Shopping">Shopping&nbsp;
+							</td>
+		   					<td>
+		   						<input type="checkbox" name="hobby" value="Praying">Praying&nbsp;
+		   					</td>
+							</tr>
+						</table>
+   					</td>
+   				</tr>
+   				<tr>
+   					<td class="field_form">Address</td>
+   					<td class="field_form">:</td>
+   					<td><input type="text" name="Address" id="Address" placeholder="Please insert Address"></td>
+   				</tr>
+   			</table>
+   			<div id="button_area">
+   			<input type="SUBMIT" name="SUBMIT" value="Submit">
+   			<input type="reset" name="reset" value="Reset">	
+   			</div>
+   		</form>
+   		
+
+
+
+
+	</div>
+    
+    
+    
+</div>
+<div id="footer" class="container">
+	<p>Copyright (c) 2013 Your Name </p>
+</div>
+</body>
+</html>
